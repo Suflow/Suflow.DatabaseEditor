@@ -8,7 +8,7 @@ namespace Suflow.Common.Utils {
     public class DatabaseServiceTest {
 
         /// <summary>
-        /// This method test ImportFromString
+        /// This method test ImportFromString !!
         /// </summary>
         public void ImportFromStringTest() {
 
