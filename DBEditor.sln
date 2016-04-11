@@ -1,0 +1,38 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DBEditor.UI", "DBEditor.UI\DBEditor.UI.csproj", "{2752DF61-C19A-40CF-AE2D-24E557CA0653}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DBEditor.Service", "DBEditor.Service\DBEditor.Service.csproj", "{E2D947D7-4A91-4F68-B4F9-2C94FE2E1C86}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DBEditor.Api", "DBEditor.Api\DBEditor.Api.csproj", "{1C4C483A-1BE6-48AF-8F1A-C8250C41C294}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DBEditor.Test", "DBEditor.Test\DBEditor.Test.csproj", "{543B8F4E-82F9-4CC2-9184-88589CF45179}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2752DF61-C19A-40CF-AE2D-24E557CA0653}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2752DF61-C19A-40CF-AE2D-24E557CA0653}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2752DF61-C19A-40CF-AE2D-24E557CA0653}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2752DF61-C19A-40CF-AE2D-24E557CA0653}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E2D947D7-4A91-4F68-B4F9-2C94FE2E1C86}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E2D947D7-4A91-4F68-B4F9-2C94FE2E1C86}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E2D947D7-4A91-4F68-B4F9-2C94FE2E1C86}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E2D947D7-4A91-4F68-B4F9-2C94FE2E1C86}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1C4C483A-1BE6-48AF-8F1A-C8250C41C294}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1C4C483A-1BE6-48AF-8F1A-C8250C41C294}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1C4C483A-1BE6-48AF-8F1A-C8250C41C294}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1C4C483A-1BE6-48AF-8F1A-C8250C41C294}.Release|Any CPU.Build.0 = Release|Any CPU
+		{543B8F4E-82F9-4CC2-9184-88589CF45179}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{543B8F4E-82F9-4CC2-9184-88589CF45179}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{543B8F4E-82F9-4CC2-9184-88589CF45179}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{543B8F4E-82F9-4CC2-9184-88589CF45179}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,8 @@
+﻿<Window x:Class="DBEditor.UI.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="MainWindow" Height="421.417" Width="875.322">
+    <Grid>
+        
+    </Grid>
+</Window>

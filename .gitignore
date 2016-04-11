@@ -1,0 +1,12 @@
+*.dll
+*.pdb
+*.suo
+DBEditor.Service/bin/
+DBEditor.Service/obj/
+DBEditor.UI/bin/
+DBEditor.UI/obj/
+DBEditor.Test/bin/
+DBEditor.Test/obj/
+DBEditor.Api/
+packages/
+TestResults/
