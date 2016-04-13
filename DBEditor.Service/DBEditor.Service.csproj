@@ -39,6 +39,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Model\DatabaseServerSampleDataFactory.cs" />
     <Compile Include="Service\SqlHelper.cs" />
     <Compile Include="Model\Database.cs" />
     <Compile Include="Model\DatabaseField.cs" />

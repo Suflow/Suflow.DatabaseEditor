@@ -8,7 +8,7 @@ namespace DBEditor.Service.Model
 {
     public class DatabaseTable
     {
-        public string TableName { get; set; }
-        public ICollection<DatabaseField> DatabaseFields { get; set; }
+        public string Name { get; set; }
+        public ICollection<DatabaseField> Fields { get; set; }
     }
 }
