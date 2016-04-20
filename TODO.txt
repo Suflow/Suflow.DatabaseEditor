@@ -1,0 +1,8 @@
+1. Analysis
+2. Service Implementation
+	- Unit tests
+	- Development
+3. WebApi
+4. UI
+	- WPF
+	- ASP.NET MVC

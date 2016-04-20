@@ -19,8 +19,10 @@ namespace DBEditor.Service
         /// NOTE: You can use serialize/deserialize of
         ///     https://github.com/Suflow/Suflow.Common.Utils/blob/master/Extension/ObjectExtensions.cs
         /// </summary>
-        public DatabaseServer ImportFromString(string content) {
-            throw new NotImplementedException();
+        public DatabaseServer ImportFromString(string xmlContent) {
+            var server = new DatabaseServer();
+            server = server.DeserializeFromXml<DatabaseServer>(xmlContent, Encoding.Unicode);
+            return server;
         }
 
         /// <summary>
@@ -39,7 +41,9 @@ namespace DBEditor.Service
         ///     https://github.com/Suflow/Suflow.Common.Utils/blob/master/Extension/ObjectExtensions.cs
         /// </summary>
         public string ExportToString(DatabaseServer server) {
-            throw new NotImplementedException();
+            //var xmlContent1 = ObjectExtensions.SerializeToXml(server, Encoding.Unicode);
+            var xmlContent = server.SerializeToXml(Encoding.Unicode);
+            return xmlContent;
         }
 
         /// <summary>

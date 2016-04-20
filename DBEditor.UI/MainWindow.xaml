@@ -5,28 +5,43 @@
         xmlns:xctk="clr-namespace:Xceed.Wpf.Toolkit.PropertyGrid;assembly=Xceed.Wpf.Toolkit"
         Title="MainWindow" Height="480.123" Width="907.163">
     <Grid>
-
-
         <Grid.ColumnDefinitions>
-            <ColumnDefinition Width="*"></ColumnDefinition>
-            <ColumnDefinition Width="*"></ColumnDefinition>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
         </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+        </Grid.RowDefinitions>
 
+        <Menu Grid.ColumnSpan="2" Padding="5">
+            <MenuItem Header="Open"/>
+            <Separator/>
+            <MenuItem Header="Save"/>
+        </Menu>
+
+        <TreeView Grid.Row="1"
+	        Loaded="TreeView_Loaded"
+	        SelectedItemChanged="TreeView_SelectedItemChanged"
+            TreeViewItem.Expanded="TreeView_Expanded"
+	        Background="AliceBlue"/>
+
+        <!--<GridSplitter Grid.Column="1"
+	        VerticalAlignment="Stretch"
+	        Width="3"
+	        ResizeBehavior="PreviousAndNext"
+ 	        ResizeDirection="Columns">
+        </GridSplitter>-->
+
+
+        <xctk:PropertyGrid Grid.Column="0" x:Name="propertyGrid"
+                                     AutoGenerateProperties="True" Grid.Row="2" />
         
-            <TreeView
-	    HorizontalAlignment="Left"
-	    Height="200"
-	    Margin="10,10,0,0"
-	    VerticalAlignment="Top"
-	    Width="300"
-	    Loaded="TreeView_Loaded"
-	    SelectedItemChanged="TreeView_SelectedItemChanged"
-        TreeViewItem.Expanded="TreeView_Expanded"
-	    Background="AliceBlue"/>
-
-        <xctk:PropertyGrid Grid.Column="1" x:Name="propertyGrid" Width="450" Margin="10"
-                                     AutoGenerateProperties="True">
-        </xctk:PropertyGrid>
+        <StatusBar Grid.ColumnSpan="2" Grid.Row="3">
+           
+        </StatusBar>
 
     </Grid>
 </Window>
