@@ -9,6 +9,6 @@ namespace DBEditor.Service.Model
     public class DatabaseTable
     {
         public string Name { get; set; }
-        public ICollection<DatabaseField> Fields { get; set; }
+        public List<DatabaseField> Fields { get; set; }
     }
 }

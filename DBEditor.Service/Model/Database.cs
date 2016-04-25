@@ -8,6 +8,6 @@ namespace DBEditor.Service.Model
 {
     public class Database {
         public string Name { get; set; }
-        public ICollection<DatabaseTable> Tables { get; set; }
+        public List<DatabaseTable> Tables { get; set; }
     }
 }

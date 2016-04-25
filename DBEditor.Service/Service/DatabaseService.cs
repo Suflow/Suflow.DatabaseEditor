@@ -1,6 +1,7 @@
 using DBEditor.Service.Model;
 using System;
 using System.Collections.Generic;
+using System.IO;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -44,6 +45,13 @@ namespace DBEditor.Service
             //var xmlContent1 = ObjectExtensions.SerializeToXml(server, Encoding.Unicode);
             var xmlContent = server.SerializeToXml(Encoding.Unicode);
             return xmlContent;
+        }
+
+        public void ExportToFile(DatabaseServer server, string filePath)
+        {
+            //var xmlContent1 = ObjectExtensions.SerializeToXml(server, Encoding.Unicode);
+            var xmlContent = ExportToString(server);
+            File.WriteAllText(filePath, xmlContent);
         }
 
         /// <summary>
