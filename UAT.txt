@@ -1,0 +1,61 @@
+-------------------------------------------
+Designer and XML 
+-------------------------------------------
+Objective: Two tabs in the DbEditor (Designer tab and XML tab)
+Requirement: DBEditor is running
+Actions:
+1. On opening DBEditor use can see two tabs (designer tab and XML tab)
+2. XML tab contents shows XML representation of DataServer in a text box (see export method that receives dataserver and returns xml)
+3. User should be able to add, remove items directly from XML tab without using editor
+4. If XML is changed manually, the data should be reflected upon chaning the tab to designer
+
+
+-------------------------------------------
+Go to online mode                                           
+-------------------------------------------
+Objective: To change the mode of DbEditor to online
+Requirement: DbEditor is running
+Actions:
+1. User clicks the button 'go to online mode'
+2. The color of icon will turn to green
+
+-------------------------------------------
+Go to offline mode
+-------------------------------------------
+Objective: To change the mode of DbEditor to offline
+Requirement: DbEditor is running
+Actions:
+1. User clicks the button 'go to offline mode'
+2. The color of icon will turn to gray
+
+-------------------------------------------
+New configuration in offline mode
+-------------------------------------------
+Objective: To create new configuration
+Requirement: DbEditor is running
+Actions:
+1. User clicks the button 'new configuration'
+2. A configuration form will appear where user insert
+	a) Database server name
+	b) User (optional)
+	c) Password (optional)
+3. The database server name appear in the root of tree view
+4. It will be possible to right click on it and see option
+	a) Add database
+
+	
+-------------------------------------------
+New configuration in online mode
+-------------------------------------------
+Objective: To create new configuration
+Requirement: DbEditor is running
+Actions:
+1. User clicks the button 'new configuration'
+2. A configuration form will appear where user insert
+	a) Database server name
+	b) User (optional)
+	c) Password (optional)
+3. The database server name appear in the root of tree view
+4. The system tries to connect to the database server inserted by user
+	a) If it cannot connect to the server, it gives a nice error to user
+	a) If it can connect to the server, it shows all the dabase of the server in the tree view
