@@ -1,5 +1,9 @@
-Features:
+Features done
+- Visualize database schema
+- Save/Export database schema
+- Open/Import database schema
 
+Features todo:
 Mode:
   - Online - Changes applied immediately to database server
   - Offline - Changes are not applied to database server until 'Save/Export configuration to server' is clicked
