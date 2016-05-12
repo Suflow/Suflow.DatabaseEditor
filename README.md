@@ -26,3 +26,8 @@ Tables, Fields, Index
   - Add
   - Delete
   - Edit
+  - 
+  
+References:
+- http://www.codeproject.com/Articles/892233/POCO-Generator
+
